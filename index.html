@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Alves Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="logo.png" alt=""></div>
+        <nav id="navbar">
+            <a href="#home">Home</a>
+            <a href="#about-section">About Me</a>
+            <a href="#services-section">Services</a>
+            <a href="#skills-section">Skills</a>
+            <a href="#portfolio-section">Portfolio</a>
+            <a href="#contact-section">Contact</a>
+        </nav>
+        <button id="toggleTheme">Toggle Theme</button>
+        <button id="menuToggle" aria-label="Menu">&#9776;</button>
+    </header>
+    <section class="hero" id="home">
+        
+        <div class="content">
+            <h3><span id="laranja">Olá, sou eu</span></h3>
+            <h1>ARTHUR ALVES</h1>
+            <h2>E eu sou um <span id="laranja">Frontend Developer</span></h2>
+            <p>Sou um Frontend Developer dedicado a transformar conceitos em experiências visuais impactantes. Com um olhar atento aos detalhes e um compromisso com a excelência, crio interfaces que não apenas encantam, mas também oferecem uma navegação fluida e intuitiva. Vamos juntos dar vida às suas ideias!</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/arthur-alves-809288302?trk=contact-info"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24"><g><path d="M15 11.13v3.697h-2.143v-3.45c0-.866-.31-1.457-1.086-1.457c-.592 0-.945.398-1.1.784c-.056.138-.071.33-.071.522v3.601H8.456s.029-5.842 0-6.447H10.6v.913l-.014.021h.014v-.02c.285-.44.793-1.066 1.932-1.066c1.41 0 2.468.922 2.468 2.902M6.213 5.271C5.48 5.271 5 5.753 5 6.385c0 .62.466 1.115 1.185 1.115h.014c.748 0 1.213-.496 1.213-1.115c-.014-.632-.465-1.114-1.199-1.114m-1.086 9.556h2.144V8.38H5.127z"/><path d="M10 18a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10s-4.477 10-10 10"/></g></svg></a>
+                <a href="https://www.instagram.com/arthuralvesmf/profilecard/?igsh=MW9mYm5wbGx5MmJ6ag=="><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><path id="lineiconsInstagram0" d="M8.667 12a3.333 3.333 0 1 1 6.667 0a3.333 3.333 0 0 1-6.667 0m-1.802 0a5.135 5.135 0 1 0 10.27 0a5.135 5.135 0 0 0-10.27 0m9.273-5.338a1.2 1.2 0 1 0 1.2-1.2a1.2 1.2 0 0 0-1.2 1.2M7.96 20.14c-.975-.045-1.505-.207-1.857-.344a3.1 3.1 0 0 1-1.15-.748a3.1 3.1 0 0 1-.748-1.15c-.138-.352-.3-.882-.344-1.857c-.049-1.054-.058-1.37-.058-4.04s.01-2.987.058-4.042c.044-.975.208-1.504.344-1.857c.181-.467.398-.8.748-1.15s.682-.567 1.15-.748c.352-.138.882-.3 1.857-.344C9.014 3.81 9.33 3.8 12 3.8s2.986.01 4.041.059c.975.044 1.504.208 1.857.344c.467.18.8.398 1.15.748s.567.683.749 1.15c.137.352.3.882.343 1.857c.049 1.055.059 1.37.059 4.041c0 2.67-.01 2.986-.059 4.041c-.044.975-.207 1.505-.343 1.857a3.1 3.1 0 0 1-.748 1.15a3.1 3.1 0 0 1-1.15.748c-.353.137-.883.3-1.858.344c-1.054.048-1.37.058-4.041.058c-2.67 0-2.986-.01-4.04-.058M7.877 2.06c-1.064.049-1.792.218-2.427.465a4.9 4.9 0 0 0-1.772 1.153A4.9 4.9 0 0 0 2.525 5.45c-.247.636-.416 1.363-.464 2.427C2.01 8.943 2 9.284 2 12s.011 3.057.06 4.123c.049 1.064.218 1.791.465 2.427a4.9 4.9 0 0 0 1.153 1.771a4.9 4.9 0 0 0 1.772 1.154c.636.247 1.363.416 2.427.464C8.944 21.988 9.284 22 12 22s3.057-.011 4.123-.06c1.064-.049 1.791-.218 2.427-.465a4.9 4.9 0 0 0 1.771-1.154a4.9 4.9 0 0 0 1.154-1.77c.247-.637.417-1.364.464-2.428c.049-1.067.06-1.407.06-4.123s-.011-3.057-.06-4.123c-.048-1.064-.217-1.792-.464-2.427a4.9 4.9 0 0 0-1.154-1.772a4.9 4.9 0 0 0-1.77-1.153c-.637-.247-1.364-.417-2.427-.464C15.057 2.012 14.717 2 12 2s-3.057.011-4.124.06"/></defs><use href="#lineiconsInstagram0"/><use href="#lineiconsInstagram0"/></svg></a>
+                <a href="https://github.com/alves722?tab=repositories"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></a>
+            </div>
+            <a href="#" class="download-cv">Download CV</a>
+        </div>
+        <div class="hero-image">
+            <img src="BannerImage.png" alt="Code Image">
+        </div>
+    </section>
+    <section id="about-section">
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <div class="about-content">
+            <img src="aboutme.jpg" alt="About Me Image" class="about-image">
+            <div class="about-text">
+                <h3>Frontend Developer & <br> Graphic Designer</h3>
+                <p>Olá! Sou Arthur Alves, um Frontend Developer com foco em criar experiências digitais que realmente conectam. Venho aperfeiçoando minhas habilidades em HTML, CSS e JavaScript, além de explorar frameworks modernos como React e Vue.js.</p>
+                <p>Acredito que a tecnologia deve ser acessível e intuitiva, por isso, meu trabalho vai além do código: busco entender as necessidades dos usuários e projetar soluções que sejam tanto estéticas quanto funcionais. Estou sempre em busca de novos desafios e oportunidades para aprender e crescer.</p>
+                <p>Quando não estou codificando, gosto de equinos, ler, viajar, academia, etc., o que me ajuda a manter a criatividade em alta e a trazer novas perspectivas para meu trabalho.</p>
+                <button class="read-more-btn">Read More...</button>
+            </div>
+        </div>
+    </section>
+    <section id="services-section">
+        <h2 class="section-title">My <span class="highlight">Services</span></h2>
+        <div class="services-content">
+            <div class="service-card">
+                <div class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path d="M3.25 15.525V7.621c0-.395 0-.736.023-1.017a2.3 2.3 0 0 1 .222-.875a2.25 2.25 0 0 1 .984-.984a2.3 2.3 0 0 1 .875-.222c.28-.023.622-.023 1.017-.023H17.63c.395 0 .736 0 1.017.023c.297.024.592.078.875.222c.424.216.768.56.984.984c.144.283.198.578.222.875c.023.28.023.622.023 1.017v7.904c.57.116 1 .62 1 1.225A2.75 2.75 0 0 1 19 19.5H5a2.75 2.75 0 0 1-2.75-2.75c0-.605.43-1.11 1-1.225m1.91-9.443a.75.75 0 0 0-.328.328c-.02.037-.047.112-.064.316c-.017.212-.018.492-.018.924v7.85h4.604a.75.75 0 0 1 .687.45a.5.5 0 0 0 .459.3h3a.5.5 0 0 0 .459-.3a.75.75 0 0 1 .687-.45h4.604V7.65c0-.432 0-.712-.018-.924c-.017-.204-.045-.28-.064-.316a.75.75 0 0 0-.328-.328c-.037-.02-.112-.047-.316-.064A13 13 0 0 0 17.6 6H6.4c-.432 0-.712 0-.924.018c-.204.017-.28.045-.316.064M3.775 17c.116.57.62 1 1.225 1h14c.605 0 1.11-.43 1.225-1h-5.164c-.366.457-.929.75-1.561.75h-3A2 2 0 0 1 8.939 17z"/></svg></div>
+                <h3>Web Development</h3>
+                <p>Crio sites responsivos e dinâmicos que priorizam a experiência do usuário. Utilizando as mais recentes tecnologias, transformo ideias em plataformas funcionais e visualmente atraentes.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="2em" viewBox="0 0 24 24"><path  d="M7 23q-.825 0-1.412-.587T5 21V3q0-.825.588-1.412T7 1h10q.825 0 1.413.588T19 3v18q0 .825-.587 1.413T17 23zm0-5h10V6H7z"/></svg></div>
+                <h3>Apps Development</h3>
+                <p>Desenvolvo aplicativos que facilitam a vida do usuário, combinando design intuitivo e funcionalidades robustas. Meu objetivo é entregar soluções que atendam às suas necessidades, seja para dispositivos móveis ou web.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path  d="M9 17H7v-7h2zm4 0h-2V7h2zm4 0h-2v-4h2zm2 2H5V5h14v14.1M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2"/></svg></div>
+                <h3>Digital Marketing</h3>
+                <p>Ofereço estratégias de marketing digital personalizadas para aumentar sua presença online. Com foco em SEO, redes sociais e campanhas publicitárias, ajudo a conectar sua marca ao público certo de forma eficaz.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills-section">
+        <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+        <div class="skills-content">
+            <div class="skill">
+                <span class="skill-name">HTML - 5</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+                <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill">
+                <span class="skill-name">CSS - 3</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+                <span class="skill-percent">75%</span>
+            </div>
+            <div class="skill">
+                <span class="skill-name">Bootstrap</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+                <span class="skill-percent">60%</span>
+            </div>
+            <div class="skill">
+                <span class="skill-name">JavaScript</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+                <span class="skill-percent">50%</span>
+            </div>
+            <div class="skill">
+                <span class="skill-name">Adobe Photoshop</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+                <span class="skill-percent">75%</span>
+            </div>
+            <div class="skill">
+                <span class="skill-name">Adobe Illustrator</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+                <span class="skill-percent">60%</span>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio-section">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-gallery">
+            <div class="portfolio-item">
+                <a href="https://github.com/alves722?tab=repositories" target="_blank">
+                    <img src="image1.png" alt="Projeto 1">
+                    <div class="overlay">
+                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14"/></svg></span>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="https://github.com/alves722?tab=repositories" target="_blank">
+                    <img src="image2.png" alt="Projeto 2">
+                    <div class="overlay">
+                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14"/></svg></span>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="https://github.com/alves722?tab=repositories" target="_blank">
+                    <img src="image3.png" alt="Projeto 2">
+                    <div class="overlay">
+                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14"/></svg></span>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="https://github.com/alves722?tab=repositories" target="_blank">
+                    <img src="image4.png" alt="Projeto 2">
+                    <div class="overlay">
+                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14"/></svg></span>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="https://github.com/alves722?tab=repositories" target="_blank">
+                    <img src="image5.png" alt="Projeto 2">
+                    <div class="overlay">
+                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14"/></svg></span>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="https://github.com/alves722?tab=repositories" target="_blank">
+                    <img src="image6.png" alt="Projeto 2">
+                    <div class="overlay">
+                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14"/></svg></span>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="https://github.com/alves722?tab=repositories" target="_blank">
+                    <img src="image7.png" alt="Projeto 2">
+                    <div class="overlay">
+                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14"/></svg></span>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="https://github.com/alves722?tab=repositories" target="_blank">
+                    <img src="image8.png" alt="Projeto 2">
+                    <div class="overlay">
+                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14"/></svg></span>
+                    </div>
+                </a>
+            </div>
+            
+
+        </div>
+    </section>
+    <section id="contact-section">
+        <h2 class="section-title">Contact <span class="highlight">Me</span></h2>
+        <form id="contact-form" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+        <p id="error-message" style="color: var(--primary-color); display: none;">Please fill in all required fields correctly.</p>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>Meu Portfólio</h3>
+                <p>© 2024 Todos os direitos reservados</p>
+            </div>
+            <div class="footer-links">
+                <a href="#about-section">About Me</a>
+                <a href="#services-section">Services</a>
+                <a href="#skills-section">Skills</a>
+                <a href="#portfolio-section">Portfolio</a>
+                <a href="#contact-section">Contact</a>
+            </div>
+            <div class="footer-social">
+
+                <a href="https://www.instagram.com/arthuralvesmf/profilecard/?igsh=MW9mYm5wbGx5MmJ6ag==" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/arthur-alves-809288302?trk=contact-info" target="_blank">LinkedIn</a>
+                <a href="https://github.com/alves722?tab=repositories" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
